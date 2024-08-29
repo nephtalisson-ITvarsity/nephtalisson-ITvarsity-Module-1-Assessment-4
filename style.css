@@ -1,0 +1,67 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c0dfd9;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(157, 191, 218);
+}
+
+span,
+caption,
+a {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  color: #529432;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+table {
+  text-align: end;
+  border-collapse: collapse;
+  border: 7px solid #fff;
+  padding: 1rem 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.centre {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  text-align: center;
+  background: #05364D;
+  color: #fff;
+}
+
+.titles {
+  text-align: initial;
+}
+
+td {
+  background-color: #0f556c;
+  border: 1px solid #529432;
+}
+
+th, td { 
+  padding: 8px 15px; 
+  /* border: 2px solid #529432;  */
+} 
+
+/* Hover effect */
+tbody tr:hover {
+  font-size: large;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+
+/* Aligning RANKINGS center */
+.column1 {
+  text-align: center;
+}
